@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/remedgit/.ohos/config/auto_debug_RemedgitBlog_com.remedgit.blog_70086000320264473.cer",
+          "storePassword": "0000001B60D221F7E401F3F828AF90758F3C7D875B43EB0F588D3A39FFCFA9290531E3312F60A19C0F0E62",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BCFBC3470D387F1EF0E7A52F0D006029C824DAF5927D5A07AE0A56E294DCCF35E025DE1809190B7",
+          "profile": "/Users/remedgit/.ohos/config/auto_debug_RemedgitBlog_com.remedgit.blog_70086000320264473.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/remedgit/.ohos/config/auto_debug_RemedgitBlog_com.remedgit.blog_70086000320264473.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
